@@ -10,3 +10,9 @@ header {
   align-items: center;
   font-size: 2rem;
 }
+
+.logo {
+  width: clamp(120px, 18vw, 220px);
+  height: auto;
+  display: block;
+}

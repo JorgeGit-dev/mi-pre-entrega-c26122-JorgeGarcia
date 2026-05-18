@@ -9,9 +9,9 @@ export const ItemList = ({ products }) => {
 
   return (
     <div className="products-container">
-      {products.map((producto) => (
-        <Link key={producto.id} to={`/product/${producto.id}`} aria-label={`Ver detalle de ${producto.name}`}>
-          <Item {...producto} />
+      {products.map((product) => (
+        <Link key={product.id} to={`/product/${product.id}`} aria-label={`Ver detalle de: ${product.producto} Marca: ${product.marca}`}>
+          <Item {...product} />
         </Link>
       ))}
     </div>

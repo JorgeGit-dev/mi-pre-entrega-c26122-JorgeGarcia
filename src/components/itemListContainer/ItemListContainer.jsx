@@ -9,7 +9,7 @@ export const ItemListContainer = () => {
   const getProducts = () => {
     // setLoading(true);
 
-    fetch("/data/products.json")
+    fetch("/data/productos.json")
       .then((res) => res.json())
       .then((data) => setProducts(data))
       .catch((err) => console.log("Hubo un error:", err))

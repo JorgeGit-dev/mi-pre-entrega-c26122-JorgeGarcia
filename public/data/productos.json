@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "producto": "Cajón de pollo fresco SABORAVE",
+    "marca": "SABORAVE",
+    "presentacion": "Cajón",
+    "peso": "Consultar",
+    "precio_kilo": "Consultar precio al día", 
+    "precio_caja": "Consultar precio al día",
+    "descripcion": "Producto fresco presentado en cajón mayorista, ideal para negocios gastronómicos, supermercados y distribuidores. Conservado en frío para mantener calidad y frescura.",
+    "imagen": "/img/cajon-pollo-saborave.jpg"
+  },
+  {
+    "id": 2,
+    "producto": "Suprema AURORA",
+    "marca": "AURORA",
+    "presentacion": "Caja",
+    "peso": "15 kilos",
+    "precio_kilo": 6800,
+    "precio_caja": 102000,
+    "descripcion": "Suprema de pollo premium, magra y tierna. Perfecta para milanesas, grillados, plancha y preparaciones saludables.",
+    "imagen": "/img/suprema-aurora.jpg"
+  },
+  {
+    "id": 3,
+    "producto": "Suprema NAT",
+    "marca": "NAT",
+    "presentacion": "Caja",
+    "peso": "15 kilos",
+    "precio_kilo": 6533,
+    "precio_caja": 98000,
+    "descripcion": "Suprema fresca de excelente rendimiento y textura suave. Ideal para rotiserías, restaurantes y consumo familiar.",
+    "imagen": "/img/suprema-nat.jpg"
+  },
+  {
+    "id": 4,
+    "producto": "Pata y muslo CEDAL",
+    "marca": "CEDAL",
+    "presentacion": "Caja",
+    "peso": "15 kilos",
+    "precio_kilo": 3333,
+    "precio_caja": 50000,
+    "descripcion": "Corte jugoso y rendidor, ideal para horno, parrilla, guisos o frituras. Excelente relación precio-calidad.",
+    "imagen": "/img/pata-muslo-cedal.jpg"
+  },
+  {
+    "id": 5,
+    "producto": "Caja de Bondiola SADIA",
+    "marca": "SADIA",
+    "presentacion": "Caja",
+    "peso": "Entre 17 y 21 kilos",
+    "precio_kilo": 6760,
+    "precio_caja": "Consultar precio al día", 
+    "descripcion": "Bondiola de cerdo tierna y marmolada, perfecta para parrilla, horno o cocción lenta. Gran sabor y jugosidad.",
+    "imagen": "/img/bondiola-sadia.jpg"
+  }
+]

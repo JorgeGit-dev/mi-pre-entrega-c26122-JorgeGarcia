@@ -10,7 +10,7 @@ export const ItemDetailContainer = () => {
 
   useEffect(() => {
     // setLoading(true);
-    fetch("/data/products.json")
+    fetch("/data/productos.json")
       .then((res) => res.json())
       .then((data) => {
         const item = data.find((element) => String(element.id) === id);
