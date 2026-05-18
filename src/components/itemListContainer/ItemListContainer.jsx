@@ -16,12 +16,12 @@ export const ItemListContainer = () => {
       .finally(() => setLoading(false));
   };
 
-  // Función para vaciar productos
+  // Funcion para vaciar productos
   const clearProducts = () => {
     setProducts([]);
   };
 
-  // Cargar productos automáticamente al iniciar
+  // Cargar productos automaticamente al iniciar
   useEffect(() => {
     getProducts();
   }, []);
