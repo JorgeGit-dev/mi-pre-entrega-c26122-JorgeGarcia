@@ -5,7 +5,7 @@ export const ItemListContainer = () => {
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
 
-  // Función para traer productos
+  // Funcion para traer productos
   const getProducts = () => {
     // setLoading(true);
 
@@ -16,12 +16,12 @@ export const ItemListContainer = () => {
       .finally(() => setLoading(false));
   };
 
-  // Función para vaciar productos
+  // Funcion para vaciar productos
   const clearProducts = () => {
     setProducts([]);
   };
 
-  // Cargar productos automáticamente al iniciar
+  // Cargar productos automaticamente al iniciar
   useEffect(() => {
     getProducts();
   }, []);
