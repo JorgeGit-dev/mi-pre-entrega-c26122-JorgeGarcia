@@ -46,7 +46,7 @@ export const Item = ({
         {formatearPrecio(precio_caja)}
       </p>
 
-      <p><strong>Description:</strong> {descripcion}</p>
+      <p><strong>Descripción:</strong> {descripcion}</p>
 
       {children}
     </article>
